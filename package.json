@@ -1,7 +1,10 @@
 {
   "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "text editor",
+  "engines:": {
+    "node": "14.17.3"
+  },
   "main": "server.js",
   "scripts": {
     "start:dev": "",
