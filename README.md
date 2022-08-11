@@ -2,6 +2,8 @@
 
 ## Deployed Link
 
+https://jate-22.herokuapp.com/
+
 ## The Task
 
 The task is to build a text editor that runs in the browser. This app is a single-page application that meets the PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. This application alos functions offline.
