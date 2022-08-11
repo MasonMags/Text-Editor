@@ -27,7 +27,7 @@ export const putDb = async (id, content) => {
   const txtEditorDB = await openDB('jate', 1);
   const transVar = txtEditorDB.transaction('jate', 'readwrite');
   const storeVar = transVar.objectStore('jate');
-  const req = storeVar.put({id: id, content})
+  const req = storeVar.put({id: id, content: content})
 
   const res = await req;
   console.log('Data saved', res)
